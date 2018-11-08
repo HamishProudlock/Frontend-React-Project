@@ -1,0 +1,116 @@
+.container2 {
+  left: 50%;
+  right: 50%;
+  top: 100px;
+  width: 700px;
+  margin-left: autopx;
+  margin-right: auto;
+  height: 500px;
+  border-radius: 4px;
+  border: 1px solid #afaeae;
+  overflow: hidden;
+  z-index: 1000;
+  transform: translate(-50%, 0);
+  position: fixed;
+  text-align: left;
+  background-color: #fafafa;
+  background-image: url('../../../assets/Untitled-2.jpg');
+
+
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title2 {
+  padding-top: 20px;
+  padding-left: 90px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+
+.textbox2{
+  padding: 4px 0;
+  margin-bottom: 2px;
+  margin-left: 85px;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+  width: 70%;
+}
+
+.textbox2 i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+.textbox2 input {
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 15px;
+  width: 80%;
+  float: left;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.subheading2 {
+  padding-left: 90px;
+  font-size: 11px;
+  font-weight: lighter;
+  color: #404040;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.textbox2 input:focus::-webkit-input-placeholder { color:transparent; }
+.textbox2 input:focus:-moz-placeholder { color:transparent; }
+
+.btn2 {
+  width: 17%;
+  height: 35px;
+  margin-top: 15px;
+  background: #4795fb;
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  outline:none;
+  margin-left: 85px;
+  display: inline-block;
+
+}
+
+.btn2:hover {
+  background-color: #63a6ff;
+}
+
+.Create2 {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  color: #1a73e8;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.Create2:hover {
+  cursor: pointer;
+  color: #4a8fe9;
+}
+
+.container2 span {
+  font-size: 11px;
+  font-weight: lighter;
+  color: red;
+  padding-left: 90px;
+}

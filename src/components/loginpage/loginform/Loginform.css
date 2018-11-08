@@ -1,0 +1,112 @@
+.container {
+  left: 50%;
+  right: 50%;
+  top: 100px;
+  width: 500px;
+  margin-left: autopx;
+  margin-right: auto;
+  height: 500px;
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 1000;
+  transform: translate(-50%, 0);
+  position: fixed;
+  text-align: center;
+  background-image: url('../../../assets/Untitled-27.jpg');
+  background-color: #fafafa;
+
+
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  padding-top: 85px;
+  padding-bottom: 3px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+.Forgot {
+  padding-top: 25px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 85px;
+  color: #1a73e8;
+}
+.Forgot:hover {
+  cursor: pointer;
+  color: #4a8fe9;
+}
+
+.Create:hover {
+  cursor: pointer;
+  color: #4a8fe9;
+}
+
+.Create {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 85px;
+  color: #1a73e8;
+}
+
+.textbox{
+  padding: 4px 0;
+  margin: 8px 85px;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+  width: 65%;
+}
+
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 15px;
+  width: 80%;
+  float: left;
+  margin: 6px 8px;
+}
+
+.subheading {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #404040;
+}
+
+.textbox input:focus::-webkit-input-placeholder { color:transparent; }
+.textbox input:focus:-moz-placeholder { color:transparent; }
+
+.btn {
+  width: 17%;
+  height: 35px;
+  margin-top: 15px;
+  background: #4795fb;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  outline:none;
+}
+
+.btn:hover {
+  background-color: #63a6ff;
+}

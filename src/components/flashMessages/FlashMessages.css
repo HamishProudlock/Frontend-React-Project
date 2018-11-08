@@ -1,0 +1,30 @@
+.Flash {
+  width: 98%;
+  height: 50px;
+  background-color: #d0efd6;
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 5;
+  text-align: left;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  position: fixed;
+
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Flash.error {
+  background-color: red;
+}
+
+.Flash h1 {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 2.5%;
+  margin-top: 17px;
+  color: #52975f;
+}
